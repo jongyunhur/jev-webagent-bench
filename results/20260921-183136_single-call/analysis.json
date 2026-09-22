@@ -1,0 +1,60 @@
+{
+  "batch_id": "20260921-183136",
+  "arm": "single-call",
+  "driver": "planner",
+  "repeats": 3,
+  "runs": 9,
+  "steps": 90,
+  "agreement": {
+    "comparable_steps": 0,
+    "agreed_steps": 0,
+    "rate_pct": null
+  },
+  "floor": {
+    "measured_at": "2026-09-21T17:46:57.483865",
+    "model": "gpt-5.5",
+    "reasoning_effort": "high",
+    "path": "codex CLI subprocess",
+    "prompt": {
+      "system": "Reply with exactly one word and nothing else.",
+      "user": "Say: ok"
+    },
+    "stats_ms": {
+      "n": 20,
+      "min_ms": 4073.8,
+      "median_ms": 5051.344999999999,
+      "mean_ms": 5190.1445,
+      "p90_ms": 6002.3,
+      "max_ms": 7707.3,
+      "stdev_ms": 884.547937140626
+    },
+    "spread_ms": 3633.5,
+    "trustworthy": true
+  },
+  "latency": {},
+  "disagreements": [],
+  "controls": {
+    "easy": {
+      "step_counts": [
+        2
+      ],
+      "distinct_final_urls": 1,
+      "action_errors": 0
+    },
+    "medium": {
+      "step_counts": [
+        7
+      ],
+      "distinct_final_urls": 1,
+      "action_errors": 0
+    },
+    "hard": {
+      "step_counts": [
+        21
+      ],
+      "distinct_final_urls": 1,
+      "action_errors": 0
+    }
+  },
+  "verdict": "not_applicable"
+}

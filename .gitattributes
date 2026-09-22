@@ -1,0 +1,12 @@
+# Keep the retained evidence byte-stable across platforms. These files are read
+# back by bench.analyze and bench.graphs, and are cited in the report, so they
+# should not pick up line-ending churn from a checkout.
+*.jsonl text eol=lf
+*.json  text eol=lf
+*.csv   text eol=lf
+*.md    text eol=lf
+*.py    text eol=lf
+*.toml  text eol=lf
+uv.lock text eol=lf
+
+*.png binary

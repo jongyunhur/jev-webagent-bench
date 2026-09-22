@@ -1,0 +1,64 @@
+"run_id","timestamp","task_id","level","arm","arm_role","driver","repeat","order_index","max_steps","llm_calls_per_step","comparable_total_runtime","stop_reason","finished_done","steps_logged","steps_executed","total_wall_ms","generation_ms","generation_calls","generation_attempts","browser_ms","agreement_steps","comparable_steps","action_error_count","final_url","final_answer","has_final_answer"
+"20260921-183140_stable01_single-call_r1","2026-09-21T09:32:07.663444+00:00","stable01_easy_book_details","easy","single-call","reference baseline (guide 3.2) - the agent someone would build","planner","1","1","8","LLM 1","True","done","True","2","1","26982.68","19547.58","2","2","7425.92","0","0","0","https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html","Title: A Light in the Attic; Price incl. tax: £51.77; UPC: a897fe39b1053632; Stock quantity: 22 available; URL: https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html","True"
+"20260921-183216_stable02_single-call_r1","2026-09-21T09:33:47.868669+00:00","stable02_medium_travel_comparison","medium","single-call","reference baseline (guide 3.2) - the agent someone would build","planner","1","2","16","LLM 1","True","done","True","7","6","91023.11","67384.98","7","7","23608.46","0","0","0","https://books.toscrape.com/catalogue/see-america-a-celebration-of-our-national-parks-treasured-sites_732/index.html","| Title | Price incl. tax | UPC | Stock qty | URL |
+|---|---:|---|---:|---|
+| It's Only the Himalayas | £45.17 | a22124811bfa8350 | 19 | https://books.toscrape.com/catalogue/its-only-the-himalayas_981/index.html |
+| See America: A Celebration of Our National Parks & Treasured Sites | £48.87 | f9705c362f070608 | 14 | https://books.toscrape.com/catalogue/see-america-a-celebration-of-our-national-parks-treasured-sites_732/index.html |
+| Full Moon over Noah’s Ark: An Odyssey to Mount Ararat and Beyond | £49.43 | ce60436f52c5ee68 | 15 | https://books.toscrape.com/catalogue/full-moon-over-noahs-ark-an-odyssey-to-mount-ararat-and-beyond_811/index.html |
+
+Cheapest: It's Only the Himalayas (£45.17). Total for one copy of each: £143.47.","True"
+"20260921-183357_stable03_single-call_r1","2026-09-21T09:38:47.082127+00:00","stable03_hard_category_bundle","hard","single-call","reference baseline (guide 3.2) - the agent someone would build","planner","1","3","30","LLM 1","True","done","True","21","20","289763.77","221866.23","21","21","67806.49","0","0","0","https://books.toscrape.com/catalogue/shakespeares-sonnets_989/index.html","| Category | Full title | Price incl. tax | UPC | Stock qty | Product page URL |
+|---|---|---:|---|---:|---|
+| Travel | It's Only the Himalayas | £45.17 | a22124811bfa8350 | 19 | https://books.toscrape.com/catalogue/its-only-the-himalayas_981/index.html |
+| Travel | Full Moon over Noah’s Ark: An Odyssey to Mount Ararat and Beyond | £49.43 | ce60436f52c5ee68 | 15 | https://books.toscrape.com/catalogue/full-moon-over-noahs-ark-an-odyssey-to-mount-ararat-and-beyond_811/index.html |
+| Travel | See America: A Celebration of Our National Parks & Treasured Sites | £48.87 | f9705c362f070608 | 14 | https://books.toscrape.com/catalogue/see-america-a-celebration-of-our-national-parks-treasured-sites_732/index.html |
+| Philosophy | Sophie's World | £15.94 | 6be3beb0793a53e7 | 18 | https://books.toscrape.com/catalogue/sophies-world_966/index.html |
+| Philosophy | The Death of Humanity: and the Case for Life | £58.11 | bd261725b99f5983 | 16 | https://books.toscrape.com/catalogue/the-death-of-humanity-and-the-case-for-life_932/index.html |
+| Philosophy | The Stranger | £17.44 | f5a92cff83897d48 | 15 | https://books.toscrape.com/catalogue/the-stranger_861/index.html |
+| Poetry | A Light in the Attic | £51.77 | a897fe39b1053632 | 22 | https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html |
+| Poetry | The Black Maria | £52.15 | 1dfe412b8ac00530 | 19 | https://books.toscrape.com/catalogue/the-black-maria_991/index.html |
+| Poetry | Shakespeare's Sonnets | £20.66 | 30a7f60cd76ca58c | 19 | https://books.toscrape.com/catalogue/shakespeares-sonnets_989/index.html |
+
+Selected minimum-price bundle: It's Only the Himalayas; Sophie's World; Shakespeare's Sonnets. Combined price: £81.77. This fits the GBP 100 budget with £18.23 remaining.","True"
+"20260921-183856_stable02_single-call_r2","2026-09-21T09:40:33.182133+00:00","stable02_medium_travel_comparison","medium","single-call","reference baseline (guide 3.2) - the agent someone would build","planner","2","4","16","LLM 1","True","done","True","7","6","96631.3","73493.62","7","7","23109.35","0","0","0","https://books.toscrape.com/catalogue/see-america-a-celebration-of-our-national-parks-treasured-sites_732/index.html","| Title | Price incl. tax | UPC | Stock quantity | URL |
+|---|---:|---|---:|---|
+| It's Only the Himalayas | £45.17 | a22124811bfa8350 | 19 | https://books.toscrape.com/catalogue/its-only-the-himalayas_981/index.html |
+| See America: A Celebration of Our National Parks & Treasured Sites | £48.87 | f9705c362f070608 | 14 | https://books.toscrape.com/catalogue/see-america-a-celebration-of-our-national-parks-treasured-sites_732/index.html |
+| Full Moon over Noah’s Ark: An Odyssey to Mount Ararat and Beyond | £49.43 | ce60436f52c5ee68 | 15 | https://books.toscrape.com/catalogue/full-moon-over-noahs-ark-an-odyssey-to-mount-ararat-and-beyond_811/index.html |
+
+Cheapest: It's Only the Himalayas at £45.17. Total for one copy of each: £143.47.","True"
+"20260921-184042_stable03_single-call_r2","2026-09-21T09:45:24.669414+00:00","stable03_hard_category_bundle","hard","single-call","reference baseline (guide 3.2) - the agent someone would build","planner","2","5","30","LLM 1","True","done","True","21","20","282289.81","214122.94","21","21","68081.34","0","0","0","https://books.toscrape.com/catalogue/shakespeares-sonnets_989/index.html","| Category | Title | Price incl. tax | UPC | Stock qty | Product page URL |
+|---|---|---:|---|---:|---|
+| Travel | It's Only the Himalayas | £45.17 | a22124811bfa8350 | 19 | https://books.toscrape.com/catalogue/its-only-the-himalayas_981/index.html |
+| Travel | Full Moon over Noah’s Ark: An Odyssey to Mount Ararat and Beyond | £49.43 | ce60436f52c5ee68 | 15 | https://books.toscrape.com/catalogue/full-moon-over-noahs-ark-an-odyssey-to-mount-ararat-and-beyond_811/index.html |
+| Travel | See America: A Celebration of Our National Parks & Treasured Sites | £48.87 | f9705c362f070608 | 14 | https://books.toscrape.com/catalogue/see-america-a-celebration-of-our-national-parks-treasured-sites_732/index.html |
+| Philosophy | Sophie's World | £15.94 | 6be3beb0793a53e7 | 18 | https://books.toscrape.com/catalogue/sophies-world_966/index.html |
+| Philosophy | The Death of Humanity: and the Case for Life | £58.11 | bd261725b99f5983 | 16 | https://books.toscrape.com/catalogue/the-death-of-humanity-and-the-case-for-life_932/index.html |
+| Philosophy | The Stranger | £17.44 | f5a92cff83897d48 | 15 | https://books.toscrape.com/catalogue/the-stranger_861/index.html |
+| Poetry | A Light in the Attic | £51.77 | a897fe39b1053632 | 22 | https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html |
+| Poetry | The Black Maria | £52.15 | 1dfe412b8ac00530 | 19 | https://books.toscrape.com/catalogue/the-black-maria_991/index.html |
+| Poetry | Shakespeare's Sonnets | £20.66 | 30a7f60cd76ca58c | 19 | https://books.toscrape.com/catalogue/shakespeares-sonnets_989/index.html |
+
+Selected minimum-price bundle: It's Only the Himalayas; Sophie's World; Shakespeare's Sonnets. Combined price: £81.77. This fits a £100 budget with £18.23 remaining.","True"
+"20260921-184533_stable01_single-call_r2","2026-09-21T09:46:00.532119+00:00","stable01_easy_book_details","easy","single-call","reference baseline (guide 3.2) - the agent someone would build","planner","2","6","8","LLM 1","True","done","True","2","1","26818.98","19854.74","2","2","6953.32","0","0","0","https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html","Title: A Light in the Attic; Price incl. tax: £51.77; UPC: a897fe39b1053632; Stock: 22 available; URL: https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html","True"
+"20260921-184609_stable03_single-call_r3","2026-09-21T09:51:14.270793+00:00","stable03_hard_category_bundle","hard","single-call","reference baseline (guide 3.2) - the agent someone would build","planner","3","7","30","LLM 1","True","done","True","21","20","304596.72","236895.45","21","22","67619.92","0","0","0","https://books.toscrape.com/catalogue/shakespeares-sonnets_989/index.html","| Category | Title | Price incl. tax | UPC | Stock qty | Product page URL |
+|---|---|---:|---|---:|---|
+| Travel | It's Only the Himalayas | £45.17 | a22124811bfa8350 | 19 | https://books.toscrape.com/catalogue/its-only-the-himalayas_981/index.html |
+| Travel | Full Moon over Noah’s Ark: An Odyssey to Mount Ararat and Beyond | £49.43 | ce60436f52c5ee68 | 15 | https://books.toscrape.com/catalogue/full-moon-over-noahs-ark-an-odyssey-to-mount-ararat-and-beyond_811/index.html |
+| Travel | See America: A Celebration of Our National Parks & Treasured Sites | £48.87 | f9705c362f070608 | 14 | https://books.toscrape.com/catalogue/see-america-a-celebration-of-our-national-parks-treasured-sites_732/index.html |
+| Philosophy | Sophie's World | £15.94 | 6be3beb0793a53e7 | 18 | https://books.toscrape.com/catalogue/sophies-world_966/index.html |
+| Philosophy | The Death of Humanity: and the Case for Life | £58.11 | bd261725b99f5983 | 16 | https://books.toscrape.com/catalogue/the-death-of-humanity-and-the-case-for-life_932/index.html |
+| Philosophy | The Stranger | £17.44 | f5a92cff83897d48 | 15 | https://books.toscrape.com/catalogue/the-stranger_861/index.html |
+| Poetry | A Light in the Attic | £51.77 | a897fe39b1053632 | 22 | https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html |
+| Poetry | The Black Maria | £52.15 | 1dfe412b8ac00530 | 19 | https://books.toscrape.com/catalogue/the-black-maria_991/index.html |
+| Poetry | Shakespeare's Sonnets | £20.66 | 30a7f60cd76ca58c | 19 | https://books.toscrape.com/catalogue/shakespeares-sonnets_989/index.html |
+
+Selected minimum-price bundle: It's Only the Himalayas; Sophie's World; Shakespeare's Sonnets. Combined price: £81.77. This fits the £100 budget, with £18.23 remaining.","True"
+"20260921-185123_stable01_single-call_r3","2026-09-21T09:51:47.875894+00:00","stable01_easy_book_details","easy","single-call","reference baseline (guide 3.2) - the agent someone would build","planner","3","8","8","LLM 1","True","done","True","2","1","24740.53","17844.24","2","2","6887.78","0","0","0","https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html","Title: A Light in the Attic; Price including tax: £51.77; UPC: a897fe39b1053632; Stock quantity: 22 available; URL: https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html","True"
+"20260921-185157_stable02_single-call_r3","2026-09-21T09:53:38.619575+00:00","stable02_medium_travel_comparison","medium","single-call","reference baseline (guide 3.2) - the agent someone would build","planner","3","9","16","LLM 1","True","done","True","7","6","101419.49","78242.75","7","7","23147.52","0","0","0","https://books.toscrape.com/catalogue/see-america-a-celebration-of-our-national-parks-treasured-sites_732/index.html","| Title | Price incl. tax | UPC | Stock quantity | Product page URL |
+|---|---:|---|---:|---|
+| It's Only the Himalayas | £45.17 | a22124811bfa8350 | 19 | https://books.toscrape.com/catalogue/its-only-the-himalayas_981/index.html |
+| See America: A Celebration of Our National Parks & Treasured Sites | £48.87 | f9705c362f070608 | 14 | https://books.toscrape.com/catalogue/see-america-a-celebration-of-our-national-parks-treasured-sites_732/index.html |
+| Full Moon over Noah’s Ark: An Odyssey to Mount Ararat and Beyond | £49.43 | ce60436f52c5ee68 | 15 | https://books.toscrape.com/catalogue/full-moon-over-noahs-ark-an-odyssey-to-mount-ararat-and-beyond_811/index.html |
+
+Cheapest: It's Only the Himalayas (£45.17). Total for one copy of each: £143.47.","True"

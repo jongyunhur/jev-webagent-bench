@@ -1,0 +1,74 @@
+{
+  "batch_id": "20260921-183136",
+  "arm": "single-call",
+  "arm_role": "reference baseline (guide 3.2) - the agent someone would build",
+  "driver": "planner",
+  "llm_calls_per_step": "LLM 1",
+  "selectors": [],
+  "selector_boundaries": {},
+  "comparable_total_runtime": true,
+  "repeats": 3,
+  "levels": [
+    "easy",
+    "medium",
+    "hard"
+  ],
+  "budgets": {
+    "easy": 8,
+    "medium": 16,
+    "hard": 30
+  },
+  "execution_order": [
+    {
+      "position": 1,
+      "level": "easy",
+      "repeat": 1
+    },
+    {
+      "position": 2,
+      "level": "medium",
+      "repeat": 1
+    },
+    {
+      "position": 3,
+      "level": "hard",
+      "repeat": 1
+    },
+    {
+      "position": 4,
+      "level": "medium",
+      "repeat": 2
+    },
+    {
+      "position": 5,
+      "level": "hard",
+      "repeat": 2
+    },
+    {
+      "position": 6,
+      "level": "easy",
+      "repeat": 2
+    },
+    {
+      "position": 7,
+      "level": "hard",
+      "repeat": 3
+    },
+    {
+      "position": 8,
+      "level": "easy",
+      "repeat": 3
+    },
+    {
+      "position": 9,
+      "level": "medium",
+      "repeat": 3
+    }
+  ],
+  "dataset": "C:\\Users\\trltm\\Downloads\\Odysseys\\agentweb\\data\\pilot_tasks.json",
+  "dataset_sha256": "b172f40937b185de3eb03bd00415710b76ab680deca065e75cd9514b0a4208f4",
+  "model": "gpt-5.5",
+  "reasoning_effort": "high",
+  "single_repeat_warning": null,
+  "total_runtime_comparable_note": null
+}

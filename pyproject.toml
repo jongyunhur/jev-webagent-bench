@@ -1,0 +1,14 @@
+[project]
+name = "agentweb-bench"
+version = "0.1.0"
+description = "JEV next-action selector benchmark, built to the experiment guide"
+requires-python = ">=3.11"
+dependencies = [
+    "system-one-adapter>=0.2.0",
+    "typesafe-sdk>=0.7.0",
+]
+
+[dependency-groups]
+viz = [
+    "matplotlib>=3.9",
+]

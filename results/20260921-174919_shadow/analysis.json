@@ -1,0 +1,245 @@
+{
+  "batch_id": "20260921-174919",
+  "arm": "shadow",
+  "driver": "gpt",
+  "repeats": 3,
+  "runs": 9,
+  "steps": 90,
+  "agreement": {
+    "comparable_steps": 90,
+    "agreed_steps": 75,
+    "rate_pct": 83.33333333333334
+  },
+  "floor": {
+    "measured_at": "2026-09-21T17:46:57.483865",
+    "model": "gpt-5.5",
+    "reasoning_effort": "high",
+    "path": "codex CLI subprocess",
+    "prompt": {
+      "system": "Reply with exactly one word and nothing else.",
+      "user": "Say: ok"
+    },
+    "stats_ms": {
+      "n": 20,
+      "min_ms": 4073.8,
+      "median_ms": 5051.344999999999,
+      "mean_ms": 5190.1445,
+      "p90_ms": 6002.3,
+      "max_ms": 7707.3,
+      "stdev_ms": 884.547937140626
+    },
+    "spread_ms": 3633.5,
+    "trustworthy": true
+  },
+  "latency": {
+    "gpt": {
+      "calls": 90,
+      "mean_ms": 7551.903,
+      "median_ms": 6853.395,
+      "boundary": "subprocess(codex) - process spawn + CLI startup + auth + network + inference"
+    },
+    "jev": {
+      "calls": 90,
+      "mean_ms": 686.1545555555555,
+      "median_ms": 670.0550000000001,
+      "boundary": "in-process SDK call - network + inference"
+    }
+  },
+  "confidence": {
+    "agree_mean": 0.8521333333333333,
+    "disagree_mean": 0.5559999999999999,
+    "agree_n": 75,
+    "disagree_n": 15
+  },
+  "disagreements": [
+    {
+      "run_id": "20260921-175011_stable02_shadow_r1",
+      "level": "medium",
+      "step": 3,
+      "url": "https://books.toscrape.com/catalogue/its-only-the-himalayas_981/index.html",
+      "choices": {
+        "gpt": "a1",
+        "jev": "a2"
+      },
+      "jev_confidence": 0.84
+    },
+    {
+      "run_id": "20260921-175319_stable03_shadow_r1",
+      "level": "hard",
+      "step": 3,
+      "url": "https://books.toscrape.com/catalogue/its-only-the-himalayas_981/index.html",
+      "choices": {
+        "gpt": "a2",
+        "jev": "a1"
+      },
+      "jev_confidence": 0.27
+    },
+    {
+      "run_id": "20260921-175319_stable03_shadow_r1",
+      "level": "hard",
+      "step": 5,
+      "url": "https://books.toscrape.com/catalogue/full-moon-over-noahs-ark-an-odyssey-to-mount-ararat-and-beyond_811/index.html",
+      "choices": {
+        "gpt": "a1",
+        "jev": "a2"
+      },
+      "jev_confidence": 0.71
+    },
+    {
+      "run_id": "20260921-175319_stable03_shadow_r1",
+      "level": "hard",
+      "step": 7,
+      "url": "https://books.toscrape.com/catalogue/see-america-a-celebration-of-our-national-parks-treasured-sites_732/index.html",
+      "choices": {
+        "gpt": "a1",
+        "jev": "a2"
+      },
+      "jev_confidence": 0.46
+    },
+    {
+      "run_id": "20260921-175319_stable03_shadow_r1",
+      "level": "hard",
+      "step": 12,
+      "url": "https://books.toscrape.com/catalogue/the-death-of-humanity-and-the-case-for-life_932/index.html",
+      "choices": {
+        "gpt": "a1",
+        "jev": "a2"
+      },
+      "jev_confidence": 0.28
+    },
+    {
+      "run_id": "20260921-180335_stable02_shadow_r2",
+      "level": "medium",
+      "step": 3,
+      "url": "https://books.toscrape.com/catalogue/its-only-the-himalayas_981/index.html",
+      "choices": {
+        "gpt": "a1",
+        "jev": "a2"
+      },
+      "jev_confidence": 0.68
+    },
+    {
+      "run_id": "20260921-180335_stable02_shadow_r2",
+      "level": "medium",
+      "step": 5,
+      "url": "https://books.toscrape.com/catalogue/full-moon-over-noahs-ark-an-odyssey-to-mount-ararat-and-beyond_811/index.html",
+      "choices": {
+        "gpt": "a1",
+        "jev": "a2"
+      },
+      "jev_confidence": 0.33
+    },
+    {
+      "run_id": "20260921-180636_stable03_shadow_r2",
+      "level": "hard",
+      "step": 5,
+      "url": "https://books.toscrape.com/catalogue/full-moon-over-noahs-ark-an-odyssey-to-mount-ararat-and-beyond_811/index.html",
+      "choices": {
+        "gpt": "a1",
+        "jev": "a2"
+      },
+      "jev_confidence": 0.41
+    },
+    {
+      "run_id": "20260921-180636_stable03_shadow_r2",
+      "level": "hard",
+      "step": 10,
+      "url": "https://books.toscrape.com/catalogue/sophies-world_966/index.html",
+      "choices": {
+        "gpt": "a1",
+        "jev": "a2"
+      },
+      "jev_confidence": 0.65
+    },
+    {
+      "run_id": "20260921-181648_stable03_shadow_r3",
+      "level": "hard",
+      "step": 3,
+      "url": "https://books.toscrape.com/catalogue/its-only-the-himalayas_981/index.html",
+      "choices": {
+        "gpt": "a1",
+        "jev": "a2"
+      },
+      "jev_confidence": 0.51
+    },
+    {
+      "run_id": "20260921-181648_stable03_shadow_r3",
+      "level": "hard",
+      "step": 10,
+      "url": "https://books.toscrape.com/catalogue/sophies-world_966/index.html",
+      "choices": {
+        "gpt": "a1",
+        "jev": "a2"
+      },
+      "jev_confidence": 0.49
+    },
+    {
+      "run_id": "20260921-181648_stable03_shadow_r3",
+      "level": "hard",
+      "step": 14,
+      "url": "https://books.toscrape.com/catalogue/the-stranger_861/index.html",
+      "choices": {
+        "gpt": "a2",
+        "jev": "a1"
+      },
+      "jev_confidence": 0.63
+    },
+    {
+      "run_id": "20260921-181648_stable03_shadow_r3",
+      "level": "hard",
+      "step": 17,
+      "url": "https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html",
+      "choices": {
+        "gpt": "a1",
+        "jev": "a2"
+      },
+      "jev_confidence": 0.63
+    },
+    {
+      "run_id": "20260921-182726_stable02_shadow_r3",
+      "level": "medium",
+      "step": 3,
+      "url": "https://books.toscrape.com/catalogue/its-only-the-himalayas_981/index.html",
+      "choices": {
+        "gpt": "a1",
+        "jev": "a2"
+      },
+      "jev_confidence": 0.73
+    },
+    {
+      "run_id": "20260921-182726_stable02_shadow_r3",
+      "level": "medium",
+      "step": 5,
+      "url": "https://books.toscrape.com/catalogue/full-moon-over-noahs-ark-an-odyssey-to-mount-ararat-and-beyond_811/index.html",
+      "choices": {
+        "gpt": "a1",
+        "jev": "a2"
+      },
+      "jev_confidence": 0.72
+    }
+  ],
+  "controls": {
+    "easy": {
+      "step_counts": [
+        2
+      ],
+      "distinct_final_urls": 1,
+      "action_errors": 0
+    },
+    "medium": {
+      "step_counts": [
+        7
+      ],
+      "distinct_final_urls": 1,
+      "action_errors": 0
+    },
+    "hard": {
+      "step_counts": [
+        21
+      ],
+      "distinct_final_urls": 1,
+      "action_errors": 0
+    }
+  },
+  "verdict": "disagreements_found_adjudicate"
+}

@@ -1,0 +1,38 @@
+{
+  "run_id": "20260921-192238_stable02_gen+jev-select_r3",
+  "timestamp": "2026-09-21T10:24:54.834676+00:00",
+  "task_id": "stable02_medium_travel_comparison",
+  "level": "medium",
+  "arm": "gen+jev-select",
+  "arm_role": "main comparison, JEV side (guide 3.1)",
+  "driver": "jev",
+  "repeat": 3,
+  "order_index": 9,
+  "max_steps": 16,
+  "llm_calls_per_step": "LLM 1 + JEV 1",
+  "selector_boundaries": {
+    "jev": "in-process SDK call - network + inference"
+  },
+  "comparable_total_runtime": true,
+  "stop_reason": "done",
+  "finished_done": true,
+  "steps_logged": 7,
+  "steps_executed": 6,
+  "total_wall_ms": 136454.32,
+  "generation_ms": 105717.39,
+  "generation_calls": 7,
+  "generation_attempts": 7,
+  "browser_ms": 26218.46,
+  "selector_ms": {
+    "jev": 4479.12
+  },
+  "selector_calls": {
+    "jev": 7
+  },
+  "agreement_steps": 0,
+  "comparable_steps": 0,
+  "action_error_count": 0,
+  "final_url": "https://books.toscrape.com/catalogue/see-america-a-celebration-of-our-national-parks-treasured-sites_732/index.html",
+  "final_answer": "| Title | Price incl. tax | UPC | Stock quantity | Product page URL |\n|---|---:|---|---:|---|\n| It's Only the Himalayas | £45.17 | a22124811bfa8350 | 19 | https://books.toscrape.com/catalogue/its-only-the-himalayas_981/index.html |\n| See America: A Celebration of Our National Parks & Treasured Sites | £48.87 | f9705c362f070608 | 14 | https://books.toscrape.com/catalogue/see-america-a-celebration-of-our-national-parks-treasured-sites_732/index.html |\n| Full Moon over Noah’s Ark: An Odyssey to Mount Ararat and Beyond | £49.43 | ce60436f52c5ee68 | 15 | https://books.toscrape.com/catalogue/full-moon-over-noahs-ark-an-odyssey-to-mount-ararat-and-beyond_811/index.html |\n\nCheapest: It's Only the Himalayas at £45.17.\nTotal for one copy of each: £143.47.",
+  "has_final_answer": true
+}

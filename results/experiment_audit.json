@@ -1,0 +1,540 @@
+{
+  "runs_checked": 27,
+  "checks": [
+    "manifest count",
+    "done status",
+    "step count",
+    "zero action errors",
+    "target-site URLs",
+    "exact ordered product pages",
+    "required product URLs and UPCs in final answer",
+    "task arithmetic",
+    "each product row matches expected UPC, URL, price, and stock",
+    "medium rows sorted by ascending price",
+    "hard bundle and budget arithmetic"
+  ],
+  "per_run": [
+    {
+      "arm": "shadow",
+      "level": "easy",
+      "repeat": 1,
+      "run_id": "20260921-174923_stable01_shadow_r1",
+      "steps": 2,
+      "time_s": 38.779120000000006,
+      "generation_attempts": 2,
+      "visited_product_slugs": [
+        "a-light-in-the-attic_1000"
+      ],
+      "checks": "passed"
+    },
+    {
+      "arm": "shadow",
+      "level": "medium",
+      "repeat": 1,
+      "run_id": "20260921-175011_stable02_shadow_r1",
+      "steps": 7,
+      "time_s": 178.82353,
+      "generation_attempts": 7,
+      "visited_product_slugs": [
+        "its-only-the-himalayas_981",
+        "full-moon-over-noahs-ark-an-odyssey-to-mount-ararat-and-beyond_811",
+        "see-america-a-celebration-of-our-national-parks-treasured-sites_732"
+      ],
+      "checks": "passed"
+    },
+    {
+      "arm": "shadow",
+      "level": "hard",
+      "repeat": 1,
+      "run_id": "20260921-175319_stable03_shadow_r1",
+      "steps": 21,
+      "time_s": 607.16614,
+      "generation_attempts": 21,
+      "visited_product_slugs": [
+        "its-only-the-himalayas_981",
+        "full-moon-over-noahs-ark-an-odyssey-to-mount-ararat-and-beyond_811",
+        "see-america-a-celebration-of-our-national-parks-treasured-sites_732",
+        "sophies-world_966",
+        "the-death-of-humanity-and-the-case-for-life_932",
+        "the-stranger_861",
+        "a-light-in-the-attic_1000",
+        "the-black-maria_991",
+        "shakespeares-sonnets_989"
+      ],
+      "checks": "passed"
+    },
+    {
+      "arm": "shadow",
+      "level": "medium",
+      "repeat": 2,
+      "run_id": "20260921-180335_stable02_shadow_r2",
+      "steps": 7,
+      "time_s": 171.28984,
+      "generation_attempts": 7,
+      "visited_product_slugs": [
+        "its-only-the-himalayas_981",
+        "full-moon-over-noahs-ark-an-odyssey-to-mount-ararat-and-beyond_811",
+        "see-america-a-celebration-of-our-national-parks-treasured-sites_732"
+      ],
+      "checks": "passed"
+    },
+    {
+      "arm": "shadow",
+      "level": "hard",
+      "repeat": 2,
+      "run_id": "20260921-180636_stable03_shadow_r2",
+      "steps": 21,
+      "time_s": 551.0635100000001,
+      "generation_attempts": 21,
+      "visited_product_slugs": [
+        "its-only-the-himalayas_981",
+        "full-moon-over-noahs-ark-an-odyssey-to-mount-ararat-and-beyond_811",
+        "see-america-a-celebration-of-our-national-parks-treasured-sites_732",
+        "sophies-world_966",
+        "the-death-of-humanity-and-the-case-for-life_932",
+        "the-stranger_861",
+        "a-light-in-the-attic_1000",
+        "the-black-maria_991",
+        "shakespeares-sonnets_989"
+      ],
+      "checks": "passed"
+    },
+    {
+      "arm": "shadow",
+      "level": "easy",
+      "repeat": 2,
+      "run_id": "20260921-181556_stable01_shadow_r2",
+      "steps": 2,
+      "time_s": 42.684580000000004,
+      "generation_attempts": 2,
+      "visited_product_slugs": [
+        "a-light-in-the-attic_1000"
+      ],
+      "checks": "passed"
+    },
+    {
+      "arm": "shadow",
+      "level": "hard",
+      "repeat": 3,
+      "run_id": "20260921-181648_stable03_shadow_r3",
+      "steps": 21,
+      "time_s": 576.93948,
+      "generation_attempts": 21,
+      "visited_product_slugs": [
+        "its-only-the-himalayas_981",
+        "full-moon-over-noahs-ark-an-odyssey-to-mount-ararat-and-beyond_811",
+        "see-america-a-celebration-of-our-national-parks-treasured-sites_732",
+        "sophies-world_966",
+        "the-death-of-humanity-and-the-case-for-life_932",
+        "the-stranger_861",
+        "a-light-in-the-attic_1000",
+        "the-black-maria_991",
+        "shakespeares-sonnets_989"
+      ],
+      "checks": "passed"
+    },
+    {
+      "arm": "shadow",
+      "level": "easy",
+      "repeat": 3,
+      "run_id": "20260921-182634_stable01_shadow_r3",
+      "steps": 2,
+      "time_s": 43.4983,
+      "generation_attempts": 2,
+      "visited_product_slugs": [
+        "a-light-in-the-attic_1000"
+      ],
+      "checks": "passed"
+    },
+    {
+      "arm": "shadow",
+      "level": "medium",
+      "repeat": 3,
+      "run_id": "20260921-182726_stable02_shadow_r3",
+      "steps": 7,
+      "time_s": 188.43663,
+      "generation_attempts": 7,
+      "visited_product_slugs": [
+        "its-only-the-himalayas_981",
+        "full-moon-over-noahs-ark-an-odyssey-to-mount-ararat-and-beyond_811",
+        "see-america-a-celebration-of-our-national-parks-treasured-sites_732"
+      ],
+      "checks": "passed"
+    },
+    {
+      "arm": "single-call",
+      "level": "easy",
+      "repeat": 1,
+      "run_id": "20260921-183140_stable01_single-call_r1",
+      "steps": 2,
+      "time_s": 26.982680000000002,
+      "generation_attempts": 2,
+      "visited_product_slugs": [
+        "a-light-in-the-attic_1000"
+      ],
+      "checks": "passed"
+    },
+    {
+      "arm": "single-call",
+      "level": "medium",
+      "repeat": 1,
+      "run_id": "20260921-183216_stable02_single-call_r1",
+      "steps": 7,
+      "time_s": 91.02311,
+      "generation_attempts": 7,
+      "visited_product_slugs": [
+        "its-only-the-himalayas_981",
+        "full-moon-over-noahs-ark-an-odyssey-to-mount-ararat-and-beyond_811",
+        "see-america-a-celebration-of-our-national-parks-treasured-sites_732"
+      ],
+      "checks": "passed"
+    },
+    {
+      "arm": "single-call",
+      "level": "hard",
+      "repeat": 1,
+      "run_id": "20260921-183357_stable03_single-call_r1",
+      "steps": 21,
+      "time_s": 289.76377,
+      "generation_attempts": 21,
+      "visited_product_slugs": [
+        "its-only-the-himalayas_981",
+        "full-moon-over-noahs-ark-an-odyssey-to-mount-ararat-and-beyond_811",
+        "see-america-a-celebration-of-our-national-parks-treasured-sites_732",
+        "sophies-world_966",
+        "the-death-of-humanity-and-the-case-for-life_932",
+        "the-stranger_861",
+        "a-light-in-the-attic_1000",
+        "the-black-maria_991",
+        "shakespeares-sonnets_989"
+      ],
+      "checks": "passed"
+    },
+    {
+      "arm": "single-call",
+      "level": "medium",
+      "repeat": 2,
+      "run_id": "20260921-183856_stable02_single-call_r2",
+      "steps": 7,
+      "time_s": 96.6313,
+      "generation_attempts": 7,
+      "visited_product_slugs": [
+        "its-only-the-himalayas_981",
+        "full-moon-over-noahs-ark-an-odyssey-to-mount-ararat-and-beyond_811",
+        "see-america-a-celebration-of-our-national-parks-treasured-sites_732"
+      ],
+      "checks": "passed"
+    },
+    {
+      "arm": "single-call",
+      "level": "hard",
+      "repeat": 2,
+      "run_id": "20260921-184042_stable03_single-call_r2",
+      "steps": 21,
+      "time_s": 282.28981,
+      "generation_attempts": 21,
+      "visited_product_slugs": [
+        "its-only-the-himalayas_981",
+        "full-moon-over-noahs-ark-an-odyssey-to-mount-ararat-and-beyond_811",
+        "see-america-a-celebration-of-our-national-parks-treasured-sites_732",
+        "sophies-world_966",
+        "the-death-of-humanity-and-the-case-for-life_932",
+        "the-stranger_861",
+        "a-light-in-the-attic_1000",
+        "the-black-maria_991",
+        "shakespeares-sonnets_989"
+      ],
+      "checks": "passed"
+    },
+    {
+      "arm": "single-call",
+      "level": "easy",
+      "repeat": 2,
+      "run_id": "20260921-184533_stable01_single-call_r2",
+      "steps": 2,
+      "time_s": 26.81898,
+      "generation_attempts": 2,
+      "visited_product_slugs": [
+        "a-light-in-the-attic_1000"
+      ],
+      "checks": "passed"
+    },
+    {
+      "arm": "single-call",
+      "level": "hard",
+      "repeat": 3,
+      "run_id": "20260921-184609_stable03_single-call_r3",
+      "steps": 21,
+      "time_s": 304.59671999999995,
+      "generation_attempts": 22,
+      "visited_product_slugs": [
+        "its-only-the-himalayas_981",
+        "full-moon-over-noahs-ark-an-odyssey-to-mount-ararat-and-beyond_811",
+        "see-america-a-celebration-of-our-national-parks-treasured-sites_732",
+        "sophies-world_966",
+        "the-death-of-humanity-and-the-case-for-life_932",
+        "the-stranger_861",
+        "a-light-in-the-attic_1000",
+        "the-black-maria_991",
+        "shakespeares-sonnets_989"
+      ],
+      "checks": "passed"
+    },
+    {
+      "arm": "single-call",
+      "level": "easy",
+      "repeat": 3,
+      "run_id": "20260921-185123_stable01_single-call_r3",
+      "steps": 2,
+      "time_s": 24.74053,
+      "generation_attempts": 2,
+      "visited_product_slugs": [
+        "a-light-in-the-attic_1000"
+      ],
+      "checks": "passed"
+    },
+    {
+      "arm": "single-call",
+      "level": "medium",
+      "repeat": 3,
+      "run_id": "20260921-185157_stable02_single-call_r3",
+      "steps": 7,
+      "time_s": 101.41949000000001,
+      "generation_attempts": 7,
+      "visited_product_slugs": [
+        "its-only-the-himalayas_981",
+        "full-moon-over-noahs-ark-an-odyssey-to-mount-ararat-and-beyond_811",
+        "see-america-a-celebration-of-our-national-parks-treasured-sites_732"
+      ],
+      "checks": "passed"
+    },
+    {
+      "arm": "gen+jev-select",
+      "level": "easy",
+      "repeat": 1,
+      "run_id": "20260921-185407_stable01_gen+jev-select_r1",
+      "steps": 2,
+      "time_s": 30.325770000000002,
+      "generation_attempts": 2,
+      "visited_product_slugs": [
+        "a-light-in-the-attic_1000"
+      ],
+      "checks": "passed"
+    },
+    {
+      "arm": "gen+jev-select",
+      "level": "medium",
+      "repeat": 1,
+      "run_id": "20260921-185447_stable02_gen+jev-select_r1",
+      "steps": 7,
+      "time_s": 123.24025,
+      "generation_attempts": 7,
+      "visited_product_slugs": [
+        "its-only-the-himalayas_981",
+        "full-moon-over-noahs-ark-an-odyssey-to-mount-ararat-and-beyond_811",
+        "see-america-a-celebration-of-our-national-parks-treasured-sites_732"
+      ],
+      "checks": "passed"
+    },
+    {
+      "arm": "gen+jev-select",
+      "level": "hard",
+      "repeat": 1,
+      "run_id": "20260921-185659_stable03_gen+jev-select_r1",
+      "steps": 21,
+      "time_s": 425.81325,
+      "generation_attempts": 21,
+      "visited_product_slugs": [
+        "its-only-the-himalayas_981",
+        "full-moon-over-noahs-ark-an-odyssey-to-mount-ararat-and-beyond_811",
+        "see-america-a-celebration-of-our-national-parks-treasured-sites_732",
+        "sophies-world_966",
+        "the-death-of-humanity-and-the-case-for-life_932",
+        "the-stranger_861",
+        "a-light-in-the-attic_1000",
+        "the-black-maria_991",
+        "shakespeares-sonnets_989"
+      ],
+      "checks": "passed"
+    },
+    {
+      "arm": "gen+jev-select",
+      "level": "medium",
+      "repeat": 2,
+      "run_id": "20260921-190414_stable02_gen+jev-select_r2",
+      "steps": 7,
+      "time_s": 132.89174,
+      "generation_attempts": 7,
+      "visited_product_slugs": [
+        "its-only-the-himalayas_981",
+        "full-moon-over-noahs-ark-an-odyssey-to-mount-ararat-and-beyond_811",
+        "see-america-a-celebration-of-our-national-parks-treasured-sites_732"
+      ],
+      "checks": "passed"
+    },
+    {
+      "arm": "gen+jev-select",
+      "level": "hard",
+      "repeat": 2,
+      "run_id": "20260921-190636_stable03_gen+jev-select_r2",
+      "steps": 21,
+      "time_s": 430.49561,
+      "generation_attempts": 21,
+      "visited_product_slugs": [
+        "its-only-the-himalayas_981",
+        "full-moon-over-noahs-ark-an-odyssey-to-mount-ararat-and-beyond_811",
+        "see-america-a-celebration-of-our-national-parks-treasured-sites_732",
+        "sophies-world_966",
+        "the-death-of-humanity-and-the-case-for-life_932",
+        "the-stranger_861",
+        "a-light-in-the-attic_1000",
+        "the-black-maria_991",
+        "shakespeares-sonnets_989"
+      ],
+      "checks": "passed"
+    },
+    {
+      "arm": "gen+jev-select",
+      "level": "easy",
+      "repeat": 2,
+      "run_id": "20260921-191355_stable01_gen+jev-select_r2",
+      "steps": 2,
+      "time_s": 30.960459999999998,
+      "generation_attempts": 2,
+      "visited_product_slugs": [
+        "a-light-in-the-attic_1000"
+      ],
+      "checks": "passed"
+    },
+    {
+      "arm": "gen+jev-select",
+      "level": "hard",
+      "repeat": 3,
+      "run_id": "20260921-191435_stable03_gen+jev-select_r3",
+      "steps": 21,
+      "time_s": 431.41025,
+      "generation_attempts": 21,
+      "visited_product_slugs": [
+        "its-only-the-himalayas_981",
+        "full-moon-over-noahs-ark-an-odyssey-to-mount-ararat-and-beyond_811",
+        "see-america-a-celebration-of-our-national-parks-treasured-sites_732",
+        "sophies-world_966",
+        "the-death-of-humanity-and-the-case-for-life_932",
+        "the-stranger_861",
+        "a-light-in-the-attic_1000",
+        "the-black-maria_991",
+        "shakespeares-sonnets_989"
+      ],
+      "checks": "passed"
+    },
+    {
+      "arm": "gen+jev-select",
+      "level": "easy",
+      "repeat": 3,
+      "run_id": "20260921-192157_stable01_gen+jev-select_r3",
+      "steps": 2,
+      "time_s": 31.81645,
+      "generation_attempts": 2,
+      "visited_product_slugs": [
+        "a-light-in-the-attic_1000"
+      ],
+      "checks": "passed"
+    },
+    {
+      "arm": "gen+jev-select",
+      "level": "medium",
+      "repeat": 3,
+      "run_id": "20260921-192238_stable02_gen+jev-select_r3",
+      "steps": 7,
+      "time_s": 136.45432,
+      "generation_attempts": 7,
+      "visited_product_slugs": [
+        "its-only-the-himalayas_981",
+        "full-moon-over-noahs-ark-an-odyssey-to-mount-ararat-and-beyond_811",
+        "see-america-a-celebration-of-our-national-parks-treasured-sites_732"
+      ],
+      "checks": "passed"
+    }
+  ],
+  "times": {
+    "shadow": {
+      "easy": {
+        "mean_s": 41.654,
+        "times_s": [
+          38.779120000000006,
+          42.684580000000004,
+          43.4983
+        ]
+      },
+      "medium": {
+        "mean_s": 179.51666666666665,
+        "times_s": [
+          178.82353,
+          171.28984,
+          188.43663
+        ]
+      },
+      "hard": {
+        "mean_s": 578.38971,
+        "times_s": [
+          607.16614,
+          551.0635100000001,
+          576.93948
+        ]
+      }
+    },
+    "single-call": {
+      "easy": {
+        "mean_s": 26.18073,
+        "times_s": [
+          26.982680000000002,
+          26.81898,
+          24.74053
+        ]
+      },
+      "medium": {
+        "mean_s": 96.35796666666666,
+        "times_s": [
+          91.02311,
+          96.6313,
+          101.41949000000001
+        ]
+      },
+      "hard": {
+        "mean_s": 292.2167666666667,
+        "times_s": [
+          289.76377,
+          282.28981,
+          304.59671999999995
+        ]
+      }
+    },
+    "gen+jev-select": {
+      "easy": {
+        "mean_s": 31.034226666666665,
+        "times_s": [
+          30.325770000000002,
+          30.960459999999998,
+          31.81645
+        ]
+      },
+      "medium": {
+        "mean_s": 130.86210333333335,
+        "times_s": [
+          123.24025,
+          132.89174,
+          136.45432
+        ]
+      },
+      "hard": {
+        "mean_s": 429.23970333333335,
+        "times_s": [
+          425.81325,
+          430.49561,
+          431.41025
+        ]
+      }
+    }
+  },
+  "answer_rows_checked": 27
+}

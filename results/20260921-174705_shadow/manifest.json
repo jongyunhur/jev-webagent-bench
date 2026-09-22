@@ -1,0 +1,80 @@
+{
+  "batch_id": "20260921-174705",
+  "arm": "shadow",
+  "arm_role": "main comparison, run as one paired trajectory (guide 6)",
+  "driver": "gpt",
+  "llm_calls_per_step": "LLM 2 + JEV 1",
+  "selectors": [
+    "gpt",
+    "jev"
+  ],
+  "selector_boundaries": {
+    "gpt": "subprocess(codex) - process spawn + CLI startup + auth + network + inference",
+    "jev": "in-process SDK call - network + inference"
+  },
+  "comparable_total_runtime": false,
+  "repeats": 3,
+  "levels": [
+    "easy",
+    "medium",
+    "hard"
+  ],
+  "budgets": {
+    "easy": 8,
+    "medium": 16,
+    "hard": 30
+  },
+  "execution_order": [
+    {
+      "position": 1,
+      "level": "easy",
+      "repeat": 1
+    },
+    {
+      "position": 2,
+      "level": "medium",
+      "repeat": 1
+    },
+    {
+      "position": 3,
+      "level": "hard",
+      "repeat": 1
+    },
+    {
+      "position": 4,
+      "level": "medium",
+      "repeat": 2
+    },
+    {
+      "position": 5,
+      "level": "hard",
+      "repeat": 2
+    },
+    {
+      "position": 6,
+      "level": "easy",
+      "repeat": 2
+    },
+    {
+      "position": 7,
+      "level": "hard",
+      "repeat": 3
+    },
+    {
+      "position": 8,
+      "level": "easy",
+      "repeat": 3
+    },
+    {
+      "position": 9,
+      "level": "medium",
+      "repeat": 3
+    }
+  ],
+  "dataset": "C:\\Users\\trltm\\Downloads\\Odysseys\\agentweb\\data\\pilot_tasks.json",
+  "dataset_sha256": "b172f40937b185de3eb03bd00415710b76ab680deca065e75cd9514b0a4208f4",
+  "model": "gpt-5.5",
+  "reasoning_effort": "high",
+  "single_repeat_warning": null,
+  "total_runtime_comparable_note": "This arm adds a selection call per step for comparison purposes; its wall clock matches no real configuration and must not be compared against another arm's total (guide 6)."
+}

@@ -1,0 +1,38 @@
+{
+  "run_id": "20260921-192157_stable01_gen+jev-select_r3",
+  "timestamp": "2026-09-21T10:22:29.647300+00:00",
+  "task_id": "stable01_easy_book_details",
+  "level": "easy",
+  "arm": "gen+jev-select",
+  "arm_role": "main comparison, JEV side (guide 3.1)",
+  "driver": "jev",
+  "repeat": 3,
+  "order_index": 8,
+  "max_steps": 8,
+  "llm_calls_per_step": "LLM 1 + JEV 1",
+  "selector_boundaries": {
+    "jev": "in-process SDK call - network + inference"
+  },
+  "comparable_total_runtime": true,
+  "stop_reason": "done",
+  "finished_done": true,
+  "steps_logged": 2,
+  "steps_executed": 1,
+  "total_wall_ms": 31816.45,
+  "generation_ms": 23459.19,
+  "generation_calls": 2,
+  "generation_attempts": 2,
+  "browser_ms": 6925.26,
+  "selector_ms": {
+    "jev": 1420.24
+  },
+  "selector_calls": {
+    "jev": 2
+  },
+  "agreement_steps": 0,
+  "comparable_steps": 0,
+  "action_error_count": 0,
+  "final_url": "https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html",
+  "final_answer": "Full title: A Light in the Attic; Price including tax: £51.77; UPC: a897fe39b1053632; Stock quantity: 22 available; Product page URL: https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html",
+  "has_final_answer": true
+}

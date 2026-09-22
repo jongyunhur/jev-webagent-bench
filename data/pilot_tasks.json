@@ -1,0 +1,20 @@
+[
+  {
+    "task_id": "stable01_easy_book_details",
+    "level": "easy",
+    "website": "https://books.toscrape.com/",
+    "confirmed_task": "On Books to Scrape, open the product detail page for A Light in the Attic. Return the full title, price including tax in GBP, UPC, stock quantity, and actual product page URL. Use only facts observed in this browser run. Stay on books.toscrape.com and use ordinary same-tab links and browser back. Do not open new tabs, use external search, or click Add to basket. Finish after inspecting the detail page."
+  },
+  {
+    "task_id": "stable02_medium_travel_comparison",
+    "level": "medium",
+    "website": "https://books.toscrape.com/",
+    "confirmed_task": "On Books to Scrape, navigate to Travel. Consider only the first three books in the category's displayed order. Open all three product detail pages and collect each full title, price including tax in GBP, UPC, stock quantity, and actual product page URL. Return a table sorted by price ascending, identify the cheapest of these three, and calculate the total price of one copy of each. Use only facts observed in this browser run. Stay on books.toscrape.com and use ordinary same-tab links and browser back. Do not open new tabs, use external search, or click Add to basket."
+  },
+  {
+    "task_id": "stable03_hard_category_bundle",
+    "level": "hard",
+    "website": "https://books.toscrape.com/",
+    "confirmed_task": "On Books to Scrape, compare Travel, Philosophy, and Poetry. In each category consider only the first three books in displayed order, for exactly nine candidates total. Open all nine product detail pages and record full title, category, price including tax in GBP, UPC, stock quantity, and actual product page URL. Return the nine-row comparison table, then choose exactly one book from each category to minimize the combined price, considering only those nine candidates. Report the three selected titles, their combined price, and whether the bundle fits a GBP 100 budget, with the remaining budget or excess. Break equal-price ties by full title alphabetically. Base the answer only on browser observations in this run. Stay on books.toscrape.com, use ordinary same-tab links and browser back, and do not open new tabs, use external search, or click Add to basket."
+  }
+]

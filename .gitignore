@@ -1,0 +1,16 @@
+# Environment
+.venv/
+.env
+__pycache__/
+*.py[cod]
+
+# Third-party source, kept locally for reference only. The adapter is a
+# declared dependency (`system-one-adapter` on PyPI), so nothing here needs it.
+system-one-adapter-python/
+
+# Scratch
+*.tmp
+crop_*.png
+_new_block.py
+스크린샷*.png
+Screenshot*.png
